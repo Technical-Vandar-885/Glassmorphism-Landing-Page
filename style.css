@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+.web-page{
+    height: 95vh;
+    width: 95vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: radial-gradient(at 100% 50%, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+.logo{
+    position: absolute;
+    margin: 20px 20px;
+}
+.logo a{
+    font-size: 30px;
+    color: black;
+
+}
+.logo a:hover{
+    color: seagreen;
+}
+.links{
+    margin-top: 20px;
+    float: right;
+}
+.links a{
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+
+}
+.links a:hover{
+    color: teal;
+}
+
+.text h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 42px;
+}
+.text h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 30px;
+}
+
+.buttons{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.buttons button{
+    height: 45px;
+    width: 200px;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #4747BF 100% );
+    box-shadow: 0 10px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    transition: 0.5s ;
+    background-position: to left;
+}
